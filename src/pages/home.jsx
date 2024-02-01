@@ -44,7 +44,7 @@ export function Home() {
         <Preloader />
       ) : (
         <CategoryList catalog={filteredCatalog} />
-      )}{' '}
+      )}
     </>
   );
 }
