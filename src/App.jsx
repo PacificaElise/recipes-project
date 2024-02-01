@@ -7,6 +7,7 @@ import { Home } from './pages/home';
 import { About } from './pages/about';
 import { NotFound } from './pages/notFound';
 import { Category } from './pages/category';
+import { Recipe } from './pages/recipe';
 
 export const App = () => {
   return (
@@ -25,6 +26,10 @@ export const App = () => {
           <Route
             path='/category/:name'
             element={<Category />}
+          />
+          <Route
+            path='/meal/:id'
+            element={<Recipe />}
           />
           <Route
             path='*'

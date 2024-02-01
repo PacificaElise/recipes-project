@@ -17,6 +17,14 @@ main {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h2,
+h4,
+h5 {
+  margin: 0;
+}
+
 .st0 {
   fill: #fff;
 }
@@ -226,4 +234,38 @@ main {
 .card-title {
   position: static !important;
   color: inherit !important;
+}
+
+.category-head {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.recipe {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.recipe h5 {
+  font-weight: 700;
+}
+
+.instructions {
+  font-size: 1.5rem;
+}
+
+img,
+iframe {
+  max-width: 100%;
+}
+
+iframe {
+  width: 700px;
+  height: 350px;
+}
+
+table {
+  margin-bottom: 1.5rem;
 }

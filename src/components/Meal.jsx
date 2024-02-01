@@ -13,7 +13,6 @@ function Meal(props) {
         />
         <span className='card-title'>{strMeal}</span>
       </div>
-      <div className='card-content'></div>
       <div className='card-action'>
         <Link
           to={`/meal/${idMeal}`}
